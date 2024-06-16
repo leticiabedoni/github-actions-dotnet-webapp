@@ -16,5 +16,6 @@ jobs:
             path: main
         - name: Dotnet Build
           run: |
+            dotnet new webapp -n github4women
             dotnet restore **/*.csproj
             dotnet build **/*.csproj --no-restore
