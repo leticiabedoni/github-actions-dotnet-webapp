@@ -15,6 +15,6 @@ jobs:
           with:
             path: main
         - name: Dotnet Build
-          uses: EasyDesk/action-dotnet-build@v1
-          with:
-            path: /workspaces/github-actions-dotnet-webapp/github4women
+          run: |
+            dotnet restore **/*.csproj
+            dotnet build **/*.csproj --no-restore
