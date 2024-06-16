@@ -6,8 +6,8 @@ on:
 jobs:
     
     steps:
-        - uses: EasyDesk/action-dotnet-build@v1
-          with:
+      - uses: EasyDesk/action-dotnet-build@v1
+      with:
             # (Optional) Additional arguments for dotnet build.
             build-args: -v normal
   
