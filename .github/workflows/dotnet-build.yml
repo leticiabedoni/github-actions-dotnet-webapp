@@ -17,4 +17,4 @@ jobs:
         - name: Dotnet Build
           uses: EasyDesk/action-dotnet-build@v1
           with:
-            path: ./github4women/
+            path: /workspaces/github-actions-dotnet-webapp/github4women
