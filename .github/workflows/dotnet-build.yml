@@ -2,8 +2,7 @@ name: .Net Build
 
 on:
   push:
-  schedule:
-    - cron: '0 * * * *'  # Executa a cada hora
+  
 
 jobs:
 
